@@ -227,7 +227,7 @@ class JogoContraMaquinaActivity : AppCompatActivity() {
         return if (empate == 9) "Empate" else null
     }
 
-    // Função que mostra o resultado do jogo e reinicia
+    // Função que mostra o resultado do jogo e leva para a tela de jogar novamente
     private fun mostrarResultado(vencedor: String) {
         val mensagem = when (vencedor) {
             "X" -> "Vencedor: Jogador"
