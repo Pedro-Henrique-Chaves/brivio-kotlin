@@ -1,4 +1,3 @@
-// src/com/example/jogodavelhacoelho/NovoJogoActivity.kt
 package com.example.jogodavelhacoelho
 
 import android.content.Intent
@@ -20,7 +19,7 @@ class NovoJogoActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+       // Configura o clique do botão para voltar para o menu principal
         binding.menuprincipal.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
