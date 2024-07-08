@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundodenovo"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="291dp"
+        android:layout_height="94dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/placatres"
+        android:fontFamily="@font/dogicapixelbold"
+        android:text="JOGAR novamente?"
+        android:textColor="@color/turquesa_escuro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/botao_novo_jogo"
+        android:layout_width="262dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/placatres"
+        android:fontFamily="@font/dogicapixelbold"
+        android:text="Iniciar Novo Jogo"
+        android:textColor="@color/verde_escuro" />
+
+    <Button
+        android:id="@+id/menuprincipal"
+        android:layout_width="260dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/botao_novo_jogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/placatres"
+        android:fontFamily="@font/dogicapixelbold"
+        android:text="menu principal"
+        android:textColor="@color/vermelho_escuro" />
+</RelativeLayout>
