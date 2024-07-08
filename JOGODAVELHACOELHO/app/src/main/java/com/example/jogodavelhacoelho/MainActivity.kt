@@ -1,4 +1,3 @@
-// src/com/example/jogodavelhacoelho/MainActivity.kt
 package com.example.jogodavelhacoelho
 
 import android.content.Intent
